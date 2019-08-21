@@ -32,7 +32,7 @@ sha256key = key + md5Password
 
 
 KEY = hashlib.sha256(sha256key.encode('utf-8'))
-KEY = KEY.digest() 
+KEY = KEY.digest()
 
 KEY = KEY[0:24]
 
